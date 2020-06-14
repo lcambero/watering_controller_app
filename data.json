@@ -1,0 +1,109 @@
+{
+    "control_mode": "manual",
+    "programs": [
+        {
+            "id": 0,
+            "selected": false,
+            "activated": false,
+            "days": [],
+            "start_hour": 0,
+            "start_minute": 0,
+            "circuit_ids": [],
+            "time_per_circuit_mins": 0
+        },
+        {
+            "id": 1,
+            "selected": false,
+            "activated": false,
+            "days": [],
+            "start_hour": 0,
+            "start_minute": 0,
+            "circuit_ids": [],
+            "time_per_circuit_mins": 0
+        },
+        {
+            "id": 2,
+            "selected": false,
+            "activated": false,
+            "days": [],
+            "start_hour": 0,
+            "start_minute": 0,
+            "circuit_ids": [],
+            "time_per_circuit_mins": 0
+        }
+    ],
+    "circuits": [
+        {
+            "id": 0,
+            "name": "Circuito 0",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 1,
+            "name": "Circuito 1",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 2,
+            "name": "Circuito 2",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 3,
+            "name": "Circuito 3",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 4,
+            "name": "Circuito 4",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 5,
+            "name": "Circuito 5",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 6,
+            "name": "Circuito 6",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 7,
+            "name": "Circuito 7",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 8,
+            "name": "Circuito 8",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 9,
+            "name": "Circuito 9",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 10,
+            "name": "Circuito 10",
+            "activated": false,
+            "time_mins": 0
+        },
+        {
+            "id": 11,
+            "name": "Circuito 11",
+            "activated": false,
+            "time_mins": 0
+        }
+    ]
+}
