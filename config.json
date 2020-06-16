@@ -1,4 +1,81 @@
 {
-    "n_programs": 3,
-    "n_circuits": 12
+    "programs": [
+        {
+            "id": 1,
+            "selected": false,
+            "days": [],
+            "start_hour": 0,
+            "start_minute": 0,
+            "circuit_ids": [],
+            "time_per_circuit_mins": 0
+        },
+        {
+            "id": 2,
+            "selected": false,
+            "days": [],
+            "start_hour": 0,
+            "start_minute": 0,
+            "circuit_ids": [],
+            "time_per_circuit_mins": 0
+        },
+        {
+            "id": 3,
+            "selected": false,
+            "days": [],
+            "start_hour": 0,
+            "start_minute": 0,
+            "circuit_ids": [],
+            "time_per_circuit_mins": 0
+        }
+    ],
+    "circuits": [
+        {
+            "id": 1,
+            "pin": 0
+        },
+        {
+            "id": 2,
+            "pin": 0
+        },
+        {
+            "id": 3,
+            "pin": 0
+        },
+        {
+            "id": 4,
+            "pin": 0
+        },
+        {
+            "id": 5,
+            "pin": 0
+        },
+        {
+            "id": 6,
+            "pin": 0
+        },
+        {
+            "id": 7,
+            "pin": 0
+        },
+        {
+            "id": 8,
+            "pin": 0
+        },
+        {
+            "id": 9,
+            "pin": 0
+        },
+        {
+            "id": 10,
+            "pin": 0
+        },
+        {
+            "id": 11,
+            "pin": 0
+        },
+        {
+            "id": 12,
+            "pin": 0
+        }
+    ]
 }

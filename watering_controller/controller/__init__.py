@@ -1,1 +1,1 @@
-from watering_controller_logic import WateringController
+from watering_controller.controller.watering_controller_logic import WateringController
