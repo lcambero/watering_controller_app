@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>RPi Controller</title>
+    <title>Controller</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
@@ -13,7 +13,7 @@
 
 <body onload="">
 
-    <div class="container">
+    <div class="mx-3 px-3">
 
         <div class="row justify-content-center">
             <div class="col">
@@ -25,68 +25,250 @@
                     </div>
                 </div>
 
+                <div class="row">
+                    <div class="col" id="programsConsoleCol">
+
+                    </div>
+                </div>
+
                 <div class="row div-border">
                     <div class="col">
 
-                        <div class="row justify-content-between pt-3">
+                        <div class="row justify-content-between py-3">
                             <div class="col-auto">
                                 <h2>Programa 1</h2>
                             </div>
-                            <div class="col-auto">
-                                <div class="btn-toolbar" role="toolbar">
-                                    <div class="btn-group" role="group">
-                                        <button type="button" class="btn btn-light">L</button>
-                                        <button type="button" class="btn btn-light">M</button>
-                                        <button type="button" class="btn btn-light">X</button>
-                                        <button type="button" class="btn btn-light">J</button>
-                                        <button type="button" class="btn btn-light">V</button>
-                                        <button type="button" class="btn btn-light">S</button>
-                                        <button type="button" class="btn btn-light">D</button>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                         <div class="row pb-3">
-                            <div class="col">
-                                <div class="btn-toolbar" role="toolbar">
-                                    <div class="btn-group" role="group">
-                                        <button type="button" class="btn btn-light">1</button>
-                                        <button type="button" class="btn btn-light">2</button>
-                                        <button type="button" class="btn btn-light">3</button>
-                                        <button type="button" class="btn btn-light">4</button>
-                                        <button type="button" class="btn btn-light">5</button>
-                                        <button type="button" class="btn btn-light">6</button>
-                                        <button type="button" class="btn btn-light">7</button>
-                                        <button type="button" class="btn btn-light">8</button>
-                                        <button type="button" class="btn btn-light">9</button>
-                                        <button type="button" class="btn btn-light">10</button>
-                                        <button type="button" class="btn btn-light">11</button>
-                                        <button type="button" class="btn btn-light">12</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col">
+                            <div class="col-3 col-md-4">
 
-                                <div class="row justify-content-end">
-                                    <div class="col-10">
+                                <div class="row justify-content-start">
+                                    <div class="col">
                                         <div class="input-group mb-3">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text" id="basic-addon1">Hora de inicio:</span>
+                                                <button class="btn btn-outline-secondary" type="button">Hora inicio
+                                                    1</button>
                                             </div>
                                             <input type="text" class="form-control" placeholder="00:00"
                                                 aria-describedby="basic-addon1">
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row justify-content-end">
-                                    <div class="col-10">
+
+                                <div class="row justify-content-start">
+                                    <div class="col">
                                         <div class="input-group mb-3">
                                             <div class="input-group-prepend">
-                                                <span class="input-group-text">Tiempo:</span>
+                                                <button class="btn btn-outline-secondary" type="button">Hora inicio
+                                                    2</button>
                                             </div>
-                                            <input type="number" class="form-control" placeholder="0">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text">minutos</span>
+                                            <input type="text" class="form-control" placeholder="00:00"
+                                                aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-start">
+                                    <div class="col">
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <button class="btn btn-outline-secondary" type="button">Hora inicio
+                                                    3</button>
+                                            </div>
+                                            <input type="text" class="form-control" placeholder="00:00"
+                                                aria-describedby="basic-addon1">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row justify-content-center">
+                                    <div class="col-auto py-2">
+                                        <div class="btn-toolbar" role="toolbar">
+                                            <div class="btn-group mr-2" role="group">
+                                                <button type="button" class="btn btn-light">L</button>
+                                                <button type="button" class="btn btn-light">M</button>
+                                                <button type="button" class="btn btn-light">X</button>
+                                                <button type="button" class="btn btn-light">J</button>
+                                                <button type="button" class="btn btn-light">V</button>
+                                                <button type="button" class="btn btn-light">S</button>
+                                                <button type="button" class="btn btn-light">D</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="row justify-content-end">
+                                    <div class="col-4">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">1</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">2</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">3</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">4</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">5</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">6</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">7</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">8</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">9</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">10</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">11</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-10">
+                                                <div class="input-group mb-3">
+                                                    <div class="input-group-prepend">
+                                                        <button class="btn btn-outline-secondary circuit_button_timer"
+                                                            type="button">12</button>
+                                                    </div>
+                                                    <input type="number" class="form-control" placeholder="0">
+                                                    <div class="input-group-append">
+                                                        <span class="input-group-text">min</span>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>

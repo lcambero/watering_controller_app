@@ -3,7 +3,7 @@ from flask_cors import CORS
 import json
 from watering_controller.controller import WateringController
 
-CONFIG_FILE_PATH = 'config.json'
+CONFIG_FILE_PATH = 'data.json'
 
 app = Flask(__name__)
 CORS(app)

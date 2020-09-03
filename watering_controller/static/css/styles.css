@@ -4,3 +4,7 @@
     border-color: gray;
     border-width: thin;
 }
+
+.circuit_button_timer{
+    width: 3rem;
+}

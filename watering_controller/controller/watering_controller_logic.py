@@ -15,17 +15,15 @@ class WateringController():
 class Program():
     def __init__(self, program):
         assert(type(program) == dict)
-        assert(all([type(val) == int for val in [program[x] for x in ['id', 'start_hour', 'start_minute', 'time_per_circuit_mins']]]))
-        assert(all([type(val) == list for val in [program[x] for x in ['days', 'circuit_ids']]]))
+        assert(type(program['id']) == int)
+        assert(all([type(val) == dict for val in [program[x] for x in ['days', 'starts', 'circuits']]]))
         assert(type(program['selected']) == bool)
 
         self.id = program['id']
         self.selected = program['selected']
         self.days = program['days']
-        self.start_hour = program['start_hour']
-        self.start_minute = program['start_minute']
-        self.circuit_ids = program['circuit_ids']
-        self.time_per_circuit_mins = program['time_per_circuit_mins']
+        self.starts = program['starts']
+        self.circuits = program['circuits']
         self.activated = False
 
         return
@@ -36,10 +34,8 @@ class Program():
         dict_program['id'] = self.id
         dict_program['selected'] = self.selected
         dict_program['days'] = self.days
-        dict_program['start_hour'] = self.start_hour
-        dict_program['start_minute'] = self.start_minute
-        dict_program['circuit_ids'] = self.circuit_ids
-        dict_program['time_per_circuit_mins'] = self.time_per_circuit_mins
+        dict_program['starts'] = self.starts
+        dict_program['circuits'] = self.circuits
         dict_program['activated'] = self.activated
 
         assert(type(dict_program) == dict)

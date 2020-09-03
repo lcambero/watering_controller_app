@@ -1,6 +1,6 @@
 import json
 
-CONFIG_FILE_PATH = 'config.json'
+CONFIG_FILE_PATH = 'data.json'
 
 N_PROGRAMS = 3
 N_CIRCUITS = 12
@@ -13,11 +13,9 @@ for i in range(N_PROGRAMS):
     new_program = {
             'id': i + 1,
             'selected': False,
-            'days': [],
-            'start_hour': 0,
-            'start_minute': 0,
-            'circuit_ids': [],
-            'time_per_circuit_mins': 0
+            'days': {d: False for d in ['L', 'M', 'X', 'J', 'V', 'S', 'D']},
+            'starts': {s + 1: {'hour': '00:00', 'activated': False} for s in range(3)},
+            'circuits': {c + 1: {'time': 0, 'activated': False} for c in range(N_CIRCUITS)}
         }
     config['programs'].append(new_program)
 

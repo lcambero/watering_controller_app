@@ -1,0 +1,285 @@
+{
+    "programs": [
+        {
+            "id": 1,
+            "selected": false,
+            "days": {
+                "L": false,
+                "M": false,
+                "X": false,
+                "J": false,
+                "V": false,
+                "S": false,
+                "D": false
+            },
+            "starts": {
+                "1": {
+                    "hour": "00:00",
+                    "activated": false
+                },
+                "2": {
+                    "hour": "00:00",
+                    "activated": false
+                },
+                "3": {
+                    "hour": "00:00",
+                    "activated": false
+                }
+            },
+            "circuits": {
+                "1": {
+                    "time": 0,
+                    "activated": false
+                },
+                "2": {
+                    "time": 0,
+                    "activated": false
+                },
+                "3": {
+                    "time": 0,
+                    "activated": false
+                },
+                "4": {
+                    "time": 0,
+                    "activated": false
+                },
+                "5": {
+                    "time": 0,
+                    "activated": false
+                },
+                "6": {
+                    "time": 0,
+                    "activated": false
+                },
+                "7": {
+                    "time": 0,
+                    "activated": false
+                },
+                "8": {
+                    "time": 0,
+                    "activated": false
+                },
+                "9": {
+                    "time": 0,
+                    "activated": false
+                },
+                "10": {
+                    "time": 0,
+                    "activated": false
+                },
+                "11": {
+                    "time": 0,
+                    "activated": false
+                },
+                "12": {
+                    "time": 0,
+                    "activated": false
+                }
+            }
+        },
+        {
+            "id": 2,
+            "selected": false,
+            "days": {
+                "L": false,
+                "M": false,
+                "X": false,
+                "J": false,
+                "V": false,
+                "S": false,
+                "D": false
+            },
+            "starts": {
+                "1": {
+                    "hour": "00:00",
+                    "activated": false
+                },
+                "2": {
+                    "hour": "00:00",
+                    "activated": false
+                },
+                "3": {
+                    "hour": "00:00",
+                    "activated": false
+                }
+            },
+            "circuits": {
+                "1": {
+                    "time": 0,
+                    "activated": false
+                },
+                "2": {
+                    "time": 0,
+                    "activated": false
+                },
+                "3": {
+                    "time": 0,
+                    "activated": false
+                },
+                "4": {
+                    "time": 0,
+                    "activated": false
+                },
+                "5": {
+                    "time": 0,
+                    "activated": false
+                },
+                "6": {
+                    "time": 0,
+                    "activated": false
+                },
+                "7": {
+                    "time": 0,
+                    "activated": false
+                },
+                "8": {
+                    "time": 0,
+                    "activated": false
+                },
+                "9": {
+                    "time": 0,
+                    "activated": false
+                },
+                "10": {
+                    "time": 0,
+                    "activated": false
+                },
+                "11": {
+                    "time": 0,
+                    "activated": false
+                },
+                "12": {
+                    "time": 0,
+                    "activated": false
+                }
+            }
+        },
+        {
+            "id": 3,
+            "selected": false,
+            "days": {
+                "L": false,
+                "M": false,
+                "X": false,
+                "J": false,
+                "V": false,
+                "S": false,
+                "D": false
+            },
+            "starts": {
+                "1": {
+                    "hour": "00:00",
+                    "activated": false
+                },
+                "2": {
+                    "hour": "00:00",
+                    "activated": false
+                },
+                "3": {
+                    "hour": "00:00",
+                    "activated": false
+                }
+            },
+            "circuits": {
+                "1": {
+                    "time": 0,
+                    "activated": false
+                },
+                "2": {
+                    "time": 0,
+                    "activated": false
+                },
+                "3": {
+                    "time": 0,
+                    "activated": false
+                },
+                "4": {
+                    "time": 0,
+                    "activated": false
+                },
+                "5": {
+                    "time": 0,
+                    "activated": false
+                },
+                "6": {
+                    "time": 0,
+                    "activated": false
+                },
+                "7": {
+                    "time": 0,
+                    "activated": false
+                },
+                "8": {
+                    "time": 0,
+                    "activated": false
+                },
+                "9": {
+                    "time": 0,
+                    "activated": false
+                },
+                "10": {
+                    "time": 0,
+                    "activated": false
+                },
+                "11": {
+                    "time": 0,
+                    "activated": false
+                },
+                "12": {
+                    "time": 0,
+                    "activated": false
+                }
+            }
+        }
+    ],
+    "circuits": [
+        {
+            "id": 1,
+            "pin": 0
+        },
+        {
+            "id": 2,
+            "pin": 0
+        },
+        {
+            "id": 3,
+            "pin": 0
+        },
+        {
+            "id": 4,
+            "pin": 0
+        },
+        {
+            "id": 5,
+            "pin": 0
+        },
+        {
+            "id": 6,
+            "pin": 0
+        },
+        {
+            "id": 7,
+            "pin": 0
+        },
+        {
+            "id": 8,
+            "pin": 0
+        },
+        {
+            "id": 9,
+            "pin": 0
+        },
+        {
+            "id": 10,
+            "pin": 0
+        },
+        {
+            "id": 11,
+            "pin": 0
+        },
+        {
+            "id": 12,
+            "pin": 0
+        }
+    ]
+}
